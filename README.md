@@ -1,2 +1,2 @@
 # stefansokic.github.io
-My personal website
+My landing page (always a work in progess)
