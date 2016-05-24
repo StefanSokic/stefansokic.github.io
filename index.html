@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--TODO navbar-->
+
+	<!--Adjust for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+	<title>Stefan Sokic</title>
+</head>
+<body>
+
+	<div class="header">
+	<nav class="navbar container-fluid">
+		<ul class="nav navbar-nav pull-right">
+  			<li class="navbar-text"><a href="#projects">Projects</a></li>
+  			<li class="navbar-text"><a href="#about-me">About</a></li>
+  			<li class="navbar-text"><a target="_blank" href="https://medium.com/@stefansokic">Blog</a></li>
+  		</ul>
+	</nav>
+
+	<!--Loading Text-->
+	<div class="container-fluid preheader">
+		<h1><span id="we"><img src="assets/TopText/we2.png"></span><span id="are"><img src="assets/TopText/are2.png"></span><span id="here"><img src="assets/TopText/here2.png"></span></h1>
+	</div>
+
+	<!--Loaded Text-->
+	<div class="container" id="headertext">
+		<div class="row">
+			<div class="col-xs-6" id="stefan-left">
+				<h1>I'm Stefan</h1>
+				<h3>While I'm here I like spending time with friends & family and learning intresting new things.</h3>
+			</div>
+		</div>
+	</div>
+
+	<!--Mobile Header -->
+			<div class="mobile-header container">
+				<img src="assets/dumbface4.png" id="face-mobile">
+				<h1>I'm Stefan</h1>
+				<p>I study Computer Science and Economics at Queen's University in Ontario, Canada. I love to learn and build interesting things. When I'm not programming I'm usually learning about philosophy, history, or science - I'm also kind of obsessed with space.</p>
+	  			<p>As of right now I've used Javascript, HTML5, CSS3, Python, jQuery, Bootstrap, and Java to build my projects. For more details check out my Github and projects below.</p>
+	  			<div class="container social">
+	  			<a target="_blank" href="https://github.com/StefanSokic"> 
+	  				<button type="button" class="btn btn-primary btn-lg raised my-github">Github</button>
+	  			</a>
+	  			<a target="_blank" href="https://medium.com/@stefansokic">
+	  				<button type="button" class="btn btn-primary btn-lg raised my-blog">Blog</button>
+	  			</a>
+	  			<a target="_blank" href="https://ca.linkedin.com/in/stefan-sokic-84985098">
+	  				<button type="button" class="btn btn-primary btn-lg raised my-linkedin">Linkedin</button>
+	  			</a>
+			<!--link you tube here soon-->
+	  		</div>
+			</div>
+	</div>
+
+
+	<div class="about" id="projects" >
+		<div class="container" id="about">
+			<h2>Projects</h2>
+		</div>
+		<p id="click">click pictures for details</p>
+		<div class="container-fluid">
+			<div class="projects">
+				<div class="row">
+			
+				<!--Box 1-->
+		  		<div class="col-md-3" id="proj1">
+		  			<img src="assets/projects/GolbalWarming300.jpg">
+		  			<div class="over1">
+		  				<p id="title">Golbal Warming Analysis</p>
+		  				<p id="text">A Python program that takes weather statistics from 1938-2012 in Toronto and searches for evidence of global warming.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/PythonClassAssignments/blob/master/assignmentFive/assignmentFive.py">
+		  					<button type="button" class="btn btn-primary btn-md raised btn1">Github</button>
+		  				</a>
+		  			</div>
+		  		</div>
+
+				<!--Box 2-->
+		  		<div class="col-md-3" id="proj2">
+		  			<img src="assets/projects/Mars300.jpg">
+		  			<div class="over2">
+		  				<p id="title">Live Mars Weather</p>
+		  				<p id="text">A website that uses a NASA API to display live weather from a rover on Mars.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/MarsWeather">
+		  					<button type="button" class="btn btn-primary btn-md raised btn2">Github</button>
+		  				</a>
+		  			</div>
+		  		</div>
+
+		  		<!--Box 3-->
+		  		<div class="col-md-3" id="proj3">
+		  			<img src="assets/projects/Yeezy300.jpg">
+		  			<div class="over3">
+		  				<p id="title">Highlights App</p>
+		  					<p id="text">A moible app built using the ionic framework over a weekend.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/Highlights">
+		  				<button type="button" class="btn btn-primary btn-md raised btn3">Github</button>
+		  				</a>
+		  			</div>
+		  		</div>
+
+		  		<!--Box 4-->
+		  		<div class="col-md-3" id="proj4">
+		  			<img src="assets/projects/Barn300.jpg">
+		  			<div class="over4">
+		  				<p id="title">Game of Pig</p>
+		  				<p id="text">This program plays the 2 dice variation of the Game of Pig. It is a Python program in which the human plays against the computer.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/PythonClassAssignments/blob/master/GameOfPig">
+		  					<button type="button" class="btn btn-primary btn-md raised btn4">Github</button>
+		  				</a>
+		  			</div>
+		  		</div>
+			</div>
+			<div class="row" id="row2">
+
+		 		<!--Box 5-->
+		  		<div class="col-md-3" id="proj5">
+		  			<img src="assets/projects/WhiteHouse300.jpg">
+		  			<div class="over5">
+		  				<p id="title">Data Mining Politics</p>
+		  				<p id="text">A data mining program that scrapes two recent political debates and determines which political candidates cut others off more.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/PoliticalDataMining">
+		  					<button type="button" class="btn btn-primary btn-md raised btn5">Github</button>
+		  				</a>
+		  			</div>
+		  		</div>
+
+		  		<!--Box 6-->
+		  		<div class="col-md-3" id="proj6">
+		  			<img src="assets/projects/Seneca300.jpg">
+		  			<div class="over6">
+		  				<p id="title">Seneca Tribute</p>
+		  				<p id="text">A tribute page for one of my favourite philosophers built to practice using bootstrap.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/SenecaBootstrap/tree/gh-pages">
+		  					<button type="button" class="btn btn-primary btn-md raised btn6">Github</button>
+		  				</a>
+		  				<a target="_blank" href="http://stefansokic.com/SencaBootstrap">
+		  					<button type="button" class="btn btn-primary btn-md raised">Website</button>
+		  				</a>
+		  			</div>
+		  		</div>
+
+		  		<!--Box 7-->
+		  		<div class="col-md-3" id="proj7">
+		  			<img src="assets/projects/OldSite300.jpg">
+		  			<div class="over7">
+		  				<p id="title">Landing Page</p>
+		  				<p id="text">A simple personal landing page that I built for myself.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/stefansokic.github.io">
+		  					<button type="button" class="btn btn-primary btn-md raised btn7">Github</button>
+		  				</a>
+		  				<a target="_blank" href="http://stefansokic.com/">
+		  					<button type="button" class="btn btn-primary btn-md raised">Website</button>
+		  				</a>
+		  			</div>
+		  		</div>
+
+		  		<!--Box 8-->
+		  		<div class="col-md-3" id="proj8">
+		  			<img src="assets/projects/Code300.jpg">
+		  			<div class="over8">
+		  				<p id="title">Javascript Algorithms</p>
+		  				<p id="text">A collection of algorithms written to practice my Javascript.</p>
+		  				<a target="_blank" href="https://github.com/StefanSokic/JavascriptAlgorithms">
+		  					<button type="button" class="btn btn-primary btn-md raised btn8">Github</button>
+		  				</a>
+		  			</div>
+		  		</div>
+			</div>
+		</div>
+    </div>
+	</div>
+
+	<div class="contact" id="about-me">
+		<div class="info container-fluid">
+	  		<div class="row">
+	  			<div class="col-md-5 col-sm-2">
+	  				<img src="assets/dumbface4.png" id="face">
+	  			</div>
+	  			<div class="col-md-6 col-sm-8" id="contact-paragraph">
+	  				<p>Hey, I'm Stefan Sokic. I study Computer Science and Economics at Queen's University in Ontario, Canada. I love to learn and build interesting things. When I'm not programming I'm usually learning about philosophy, history, or science - you can probably tell I'm kind of obsessed with space.</p>
+	  				<p>As of right now I've used Javascript, HTML5, CSS3, Python, jQuery, Bootstrap, and Java to build my projects. For more details check out my Github below.</p id="pp">
+	  			</div>
+	  		<div class="container social">
+	  			<a target="_blank" href="https://github.com/StefanSokic"> 
+	  				<button type="button" class="btn btn-primary btn-lg raised my-github">Github</button>
+	  			</a>
+	  			<a target="_blank" href="https://medium.com/@stefansokic">
+	  				<button type="button" class="btn btn-primary btn-lg raised my-blog">Blog</button>
+	  			</a>
+	  			<a target="_blank" href="https://ca.linkedin.com/in/stefan-sokic-84985098">
+	  				<button type="button" class="btn btn-primary btn-lg raised my-linkedin">Linkedin</button>
+	  			</a>
+			<!--link you tube here soon-->
+	  		</div>
+	  		</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<p>"Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam." </p>
+			<div class="col-md-2 carl">
+				<p>-Carl Sagan</p>
+			</div>
+			<div class="col-md-10">
+				<img src="assets/SaganCrop.png">
+			</div>
+		</div>
+	</div>
+	<!--Ajax-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!--Main-->
+	<script src="js/main.js"></script>
+</body>
+</html>
