@@ -21,8 +21,8 @@ if ($(window).width() < 797) {
 }
 
 $(document).ready(function() {
-	$('#headertext h1').delay(6000).fadeIn(2000);
-	$('#headertext h3').delay(7000).fadeIn(2000);
+	$('#headertext h1').delay(7000).fadeIn(2000);
+	$('#headertext h3').delay(8000).fadeIn(2000);
 	$('#we').fadeIn(1000).delay(3000).fadeOut(1000);
 	$('#are').delay(1000).fadeIn(1000).delay(2000).fadeOut(1000);
 	$('#here').delay(2000).fadeIn(1000).delay(1000).fadeOut(1000);
