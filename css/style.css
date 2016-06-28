@@ -11,7 +11,11 @@ p {
 	margin-bottom: -3px;
 	margin-top: 3px;
 }
-.navbar li {
+.nav a {
+	color: #fff;
+}
+.nav a:hover {
+	background-color: transparent !important;
 	color: #fff;
 }
 .header {
